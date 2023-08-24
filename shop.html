@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop-style.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poppins:ital,wght@1,300&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac74d10908.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------------------------------------------------------------------- NAVBAR ------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg text-bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/img/logo2.png" alt="logo" width="auto" height="50">
+            </a>
+
+            <div class="btn-nav order-lg-2" nav-btns>
+                <button class="btn position-relative" type="button"><img src="img/search.png" alt="search" width="20"
+                        height="20">
+                    
+                </button>
+
+                <button class="btn position-relative" type="button"><img src="img/heart.png" alt="search" width="20"
+                        height="20">
+                    
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger"
+                        style="border-radius: 100%;">2</span>
+                </button>
+
+                <button class="btn position-relative" type="button"><img src="img/shopping-cart (1).png" alt="search"
+                        width="20" height="20">
+                    
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger"
+                        style="border-radius: 100%;">5</span>
+                </button>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark border-0 active" aria-current="page"
+                            href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item text-uppercase text-dark border-0">
+                        <a class="nav-link" href="home.html#section2">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item text-uppercase text-dark border-0">
+                        <a class="nav-link" href="home.html#section3">Contact</a>
+                    </li>
+                    <li class="nav-item text-uppercase text-dark border-0">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!------------------------------------------------------------------- END NAVBAR ------------------------------------------------------------------->
+
+    <!------------------------------------------------------------------- All Products ------------------------------------------------------------------->
+
+    <div class="fluid-container col-12">
+        <div class="row container shop-all-products m-auto">
+            <div class="row col-12 d-flex justify-content-between">
+                <h2 class="col-8">All Products</h2>
+                <select id="inputSort" class="col-2 border border-black rounded rounded-3 me-5">
+                    <option selected>Sort By</option>
+                    <option>Price - low to high</option>
+                    <option>Price - high to low</option>
+                    <option>Rating - low to high</option>
+                    <option>Rating - high to low</option>
+                </select>
+
+                <div class="row g-4 col-md-12 text-center pt-2 ms-auto">
+
+                    <div class="col-md-4 ">
+                        <div class="card mesh1-card" style="width: 18rem;">
+                            <img src="img/mesh1.1.png" class="card-img-top w-100" alt="mesh1">
+                            <div class="card-body">
+                                <div class="rating">
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                </div>
+                                <p class="card-text mt-2">FIRST</p>
+                                <h6 class="card-text fw-bold">₱599.99</h6>
+                                <a href="product-1.html" class="btn btn-dark mt-2">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mesh1-card" style="width: 18rem;">
+                            <img src="img/mesh1.2.png" class="card-img-top" alt="mesh2">
+                            <div class="card-body">
+                                <div class="rating">
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                </div>
+                                <p class="card-text mt-2">LOONEY TUNES</p>
+                                <h6 class="card-text fw-bold">₱599.99</h6>
+                                <a href="product-2.html" class="btn btn-dark mt-2">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mesh1-card" style="width: 18rem;">
+                            <img src="img/mesh1.3.png" class="card-img-top mesh-3" alt="mesh3">
+                            <div class="card-body">
+                                <div class="rating">
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                </div>
+                                <p class="card-text mt-2">GOLDEN AGE</p>
+                                <h6 class="card-text fw-bold">₱599.99</h6>
+                                <a href="#" class="btn btn-dark mt-2">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="row g-4 col-12 text-center ms-auto">
+                    <div class="col-md-4">
+                        <div class="card mesh1-card" style="width: 18rem;">
+                            <img src="img/Shirt1.png" class="card-img-top" alt="mesh1">
+                            <div class="card-body">
+                                <div class="rating">
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                </div>
+                                <p class="card-text mt-2">1% BETTER EACH DAY (CREAM)</p>
+                                <h6 class="card-text fw-bold">₱599.99</h6>
+                                <a href="#" class="btn btn-dark mt-2">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mesh1-card" style="width: 18rem;">
+                            <img src="img/Shirt2.png" class="card-img-top" alt="mesh1">
+                            <div class="card-body">
+                                <div class="rating">
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                    <span class="card-title"><i class="fa-solid fa-star text-primary"></i></span>
+                                </div>
+                                <p class="card-text mt-2">1% BETTER EACH DAY (GRAY)</p>
+                                <h6 class="card-text fw-bold">₱599.99</h6>
+                                <a href="#" class="btn btn-dark">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

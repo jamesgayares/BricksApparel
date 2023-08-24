@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins' , cursive;
+}
+/*------------------------ Navbar ---------------------------*/
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btn-outline-dark {
+    margin-right: 50px;
+
+}
+
+.container-fluid img {
+    margin-left: 10px;
+}
+
+.btn-nav {
+    margin-right: 30px;
+
+}
+
+/*------------------------ End Navbar ---------------------------*/
+
+.container-fluid .product-1{
+    margin-top: 10vh;
+}
+
+
+.product-mesh1 img{
+    width: 590px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-left: auto;
+    background-color: #7d82a7;
+}
+
+.product-details h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product-details h1{
+    font-weight: 700;
+}
+
+.product-image img{
+    width: 185px;
+    display: flex;
+}
+
+.product-image img:hover{
+    transform: scale(1.3);
+    transition: transform .5s; 
+}.breadcrumb li{
+    text-decoration: none !important;
+}

@@ -1,0 +1,251 @@
+*{
+    font-family: 'Poppins', cursive;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------ Navbar ---------------------------*/
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btn-outline-dark {
+    margin-right: 50px;
+
+}
+
+.container-fluid img {
+    margin-left: 10px;
+}
+
+#section1 {
+    height: 80vh;
+}
+
+#section2{
+    height: 130vh;
+}
+#section3{
+    height: 100vh;
+}
+.btn-nav {
+    margin-right: 30px;
+
+}
+
+/*------------------------ End Navbar ---------------------------*/
+
+
+/*------------------------ Section 1 - Header ---------------------------*/
+
+#header {
+    background-image: url(img/image3.png);
+    background-position: 40px;
+    top: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: #7d82a7;
+}
+
+.container-header {
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container-header h2 {
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: 'Poppins', cursive;
+    font-weight: 1000;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: black;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    padding-right: 80px;
+    text-shadow: 2px 2px 6px #000000
+}
+
+.container-header h1 {
+    font-size: 50px;
+    font-family: 'Poppins', cursive;
+    font-weight: 1000;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 120px;
+    text-shadow: 2px 2px 6px #000000
+}
+
+
+.shop-container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.shop-btn {
+    padding: 10px 60px !important;
+    border-radius: 40px !important;
+    margin-top: 30px;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.shop-btn:hover{
+    background-color: rgb(255, 44, 44) !important;
+}
+/*------------------------ Section 1 - Header ---------------------------*/
+
+
+/*------------------------ Section 2 - WHY ---------------------------*/
+
+.fluid-container h1{
+    font-family: 'Poppins', cursive;
+    font-size: 50px;
+    font-weight: 1000;
+    padding-top: 10vh;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    color: black;
+    
+}
+.why-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-container img{
+    width: 70px;
+    height: 70px;  
+}
+
+.why-container .quality , .affodable , .shipping{
+    background-color: #7d82a7;
+}
+.why-container h3{
+    color: whitesmoke;
+}
+.line{
+    height: 5px;
+    width: 15%;
+    background-color: #7d82a7;
+    margin-bottom: 90px;
+    margin-left: 43%;
+    
+}
+
+
+
+/*------------------------ Section 2 - End Why ---------------------------*/
+
+
+
+
+/*------------------------ Section 3 - Collection ---------------------------*/
+
+.main-collection{
+    height: 50vh !important;
+}
+.main-collection h1 {
+    font-family: 'Poppins', cursive;
+    font-size: 50px;
+    font-weight: 1000;
+    padding-top: 15vh;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: black;
+}
+.card img{
+    background-color: #7d82a7;
+}
+.collection{
+    margin-top:25vh !important;
+    /* margin-left: 10vh !important;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;  */
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: transform .5s; 
+}                              
+
+.mesh1-card img{
+    height: 300px !important;
+   
+}
+
+.mesh1-card{
+    height: 500px !important;
+    
+}
+/*------------------------ Section 3 - End Collection ---------------------------*/
+
+
+/*------------------------ Section 4 - Contact ---------------------------*/
+.container{
+    border-color: #7d82a7 !important;
+    padding-top: 10vh;
+    
+}
+.container .Resell{
+    font-size: 60px;
+    color: #000000;
+    padding-bottom: 30px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000;
+   
+}
+
+.container .contact-us{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.contact img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.contact a{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.form-button:hover{
+    background-color: rgb(255, 44, 44) !important;
+}
+
+
+
+
+/*------------------------ Section 4 - End Contact ---------------------------*/
+
+/*------------------------ PAGE 2 - SHOP ---------------------------*/

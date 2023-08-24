@@ -1,0 +1,67 @@
+
+*{
+    font-family: 'Poppins' , cursive;
+}
+/*------------------------ Navbar ---------------------------*/
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btn-outline-dark {
+    margin-right: 50px;
+
+}
+
+.container-fluid img {
+    margin-left: 10px;
+}
+
+.btn-nav {
+    margin-right: 30px;
+
+}
+
+/*------------------------ End Navbar ---------------------------*/
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform .5s; 
+}                              
+
+.mesh1-card img{
+    height: 300px !important;
+    background-color: #7d82a7;
+   
+}
+
+.mesh1-card{
+    height: 480px !important;
+    
+}
+
+.fluid-container{
+    margin-top: 5vh;
+    height: 150vh;
+}
+
+.shop-all-products .col-8 {
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.mesh1-card p{
+    font-size: 18px;
+}
