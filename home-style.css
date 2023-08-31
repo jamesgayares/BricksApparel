@@ -1,10 +1,12 @@
-*{
+* {
     font-family: 'Poppins', cursive;
 }
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden !important;
 }
 
 /*------------------------ Navbar ---------------------------*/
@@ -35,14 +37,17 @@ body {
 
 #section1 {
     height: 80vh;
+    width: 100%;
 }
 
-#section2{
+#section2 {
     height: 130vh;
 }
-#section3{
+
+#section3 {
     height: 100vh;
 }
+
 .btn-nav {
     margin-right: 30px;
 
@@ -113,15 +118,16 @@ body {
     font-weight: 500 !important;
 }
 
-.shop-btn:hover{
+.shop-btn:hover {
     background-color: rgb(255, 44, 44) !important;
 }
+
 /*------------------------ Section 1 - Header ---------------------------*/
 
 
 /*------------------------ Section 2 - WHY ---------------------------*/
 
-.fluid-container h1{
+.fluid-container h1 {
     font-family: 'Poppins', cursive;
     font-size: 50px;
     font-weight: 1000;
@@ -129,32 +135,39 @@ body {
     text-align: center;
     text-shadow: 2px 2px 4px black;
     color: black;
-    
+
 }
-.why-container{
+
+.why-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.why-container img{
+.why-container img {
     width: 70px;
-    height: 70px;  
+    height: 70px;
 }
 
-.why-container .quality , .affodable , .shipping{
-    background-color: #7d82a7;
+.why-container h3 {
+    color: #000000;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 500;
+    margin-top: 20px;
 }
-.why-container h3{
-    color: whitesmoke;
+
+.fa-solid {
+    color: black;
+    text-shadow: 1px 1px 2px black;
 }
-.line{
+
+.line {
     height: 5px;
     width: 15%;
     background-color: #7d82a7;
     margin-bottom: 90px;
     margin-left: 43%;
-    
+
 }
 
 
@@ -166,9 +179,10 @@ body {
 
 /*------------------------ Section 3 - Collection ---------------------------*/
 
-.main-collection{
+.main-collection {
     height: 50vh !important;
 }
+
 .main-collection h1 {
     font-family: 'Poppins', cursive;
     font-size: 50px;
@@ -178,70 +192,52 @@ body {
     text-shadow: 2px 2px 4px #000000;
     color: black;
 }
-.card img{
+
+.card img {
     background-color: #7d82a7;
 }
-.collection{
-    margin-top:25vh !important;
-    /* margin-left: 10vh !important;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;  */
-}
-.card:hover{
+
+.card:hover {
     transform: scale(1.05);
-    transition: transform .5s; 
-}                              
-
-.mesh1-card img{
-    height: 300px !important;
-   
+    transition: transform .5s;
 }
 
-.mesh1-card{
+.mesh1-card img {
+    height: 290px !important;
+    width: auto !important;
+}
+
+.mesh1-card {
     height: 500px !important;
-    
+    width: 300px !important;
 }
+
+.mesh1-card .btn {
+    margin-top: 10px;
+}
+
+.mesh1-card p {
+    /* font-size: 17px; */
+}
+
+.card {
+    margin: 0 60px;
+}
+
+.card-body .btn {
+    margin-left: 35%;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
 /*------------------------ Section 3 - End Collection ---------------------------*/
 
 
 /*------------------------ Section 4 - Contact ---------------------------*/
-.container{
-    border-color: #7d82a7 !important;
-    padding-top: 10vh;
-    
-}
-.container .Resell{
-    font-size: 60px;
-    color: #000000;
-    padding-bottom: 30px;
-    font-weight: 800;
-    text-shadow: 2px 2px 4px #000000;
-   
-}
 
-.container .contact-us{
-    font-size: 50px;
-    padding-bottom: 20px;
-    font-weight: 800;
-}
-
-.contact img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 25px;
-}
-
-.contact a{
-    font-size: 20px;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: whitesmoke;
-}
-.form-button:hover{
-    background-color: rgb(255, 44, 44) !important;
-}
 
 
 
@@ -249,3 +245,542 @@ body {
 /*------------------------ Section 4 - End Contact ---------------------------*/
 
 /*------------------------ PAGE 2 - SHOP ---------------------------*/
+
+@media (min-width:320px) and (max-width:767.98px){
+
+    .navbar-brand img {
+        height: 30px;
+        margin-left: 0;
+    }
+
+    .btn-nav {
+        width: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-nav img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .btn-nav .btn {
+        width: 30px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    /* Home Page */
+    #header {
+        height: 100vh;
+        padding-top: 350px;
+        align-items: center;
+        justify-content: center;
+        background-position: -200px -10px !important;
+        background-color: #7d82a7;
+    }
+
+    .container-header h2 {
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: 'Poppins', cursive;
+        font-weight: 1000;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: black;
+        margin-bottom: 10px;
+        margin-left: 20px !important;
+        padding-right: 30px !important;
+        text-shadow: 2px 2px 6px #000000
+    }
+
+    .container-header h1 {
+        font-size: 25px;
+        font-family: 'Poppins', cursive;
+        font-weight: 1000;
+        text-align: center;
+        color: whitesmoke;
+        margin-left: 30px !important;
+        text-shadow: 2px 2px 6px #000000
+    }
+
+
+    .shop-container-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .shop-btn {
+        padding: 10px 20px !important;
+        border-radius: 40px !important;
+        margin-top: 20px;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+
+    /* Collection */
+    #section2 {
+        height: 230vh !important;
+    }
+
+    .why-container {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    
+     .shipping{
+        margin-bottom: 20px !important;
+        
+    } 
+    .why-container h3{
+        font-size: 15px;
+    }
+    
+    .fa-solid{
+        font-size: 40px;
+    }
+    .line {
+        margin-bottom: 30px;
+    }
+
+    .fluid-container h1 {
+        font-family: 'Poppins', cursive;
+        font-size: 25px;
+        font-weight: 1000;
+        padding-top: 10vh;
+        text-align: center;
+        text-shadow: 2px 2px 4px black;
+        color: black;
+
+    }
+
+    .mesh-collection {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card {
+        width: 13rem !important;
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: auto !important;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    /* Contact Us */
+    .container h2{
+        font-size: 30px;
+        text-shadow: 1px 1px 2px #000000;
+        font-weight: 700;
+        text-align: center;
+    }
+  .contact-info{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .contact .fa-2xl{
+    font-size: 20px;
+    color: #7d82a7;
+    margin-right: 30px;
+  }
+  .d-grid .btn{
+    font-size: 12px;
+    margin-left: 120%;
+  }
+  .container .ms-5{
+    margin-left: 1rem !important;
+  }
+  .socials-contact{
+    align-items: center;
+    justify-content: center;
+  }
+#inputFName{
+    margin-top: 20px;
+}
+.container .contact-map{
+    width: 250px !important;
+    height: auto !important;
+}
+.socials-contact .fa-brands{
+    font-size: 30px !important;
+    color: whitesmoke;
+    margin-right: 40px;
+}
+}
+
+@media (min-width:768px) and (max-width:1199.98px) {
+    .navbar-brand img {
+        height: 30px;
+        margin-left: 0;
+    }
+
+    .btn-nav {
+        width: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-nav img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn-nav .btn {
+        width: 30px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    /* Home Page */
+    #header {
+        height: 100vh;
+        padding-top: 350px;
+        align-items: center;
+        justify-content: center;
+        background-position: -100px -10px !important;
+        background-color: #7d82a7;
+    }
+
+    .container-header h2 {
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: 'Poppins', cursive;
+        font-weight: 1000;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: black;
+        margin-bottom: 10px;
+        margin-left: 20px !important;
+        padding-right: 30px !important;
+        text-shadow: 2px 2px 6px #000000
+    }
+
+    .container-header h1 {
+        font-size: 25px;
+        font-family: 'Poppins', cursive;
+        font-weight: 1000;
+        text-align: center;
+        color: whitesmoke;
+        margin-left: 30px !important;
+        text-shadow: 2px 2px 6px #000000
+    }
+
+
+    .shop-container-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .shop-btn {
+        padding: 10px 20px !important;
+        border-radius: 40px !important;
+        margin-top: 20px;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    /* Collection */
+    #section2 {
+        height: 120vh !important;
+    }
+
+    .why-container .inside-container {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        flex-direction: row !important;
+        margin-top: 20px;
+    }
+     .shipping{
+        margin-bottom: 20px !important;
+        margin: auto;
+    } 
+    .why-container h3{
+        font-size: 20px;
+    }
+    .fa-solid{
+        font-size: 50px;
+    }
+    .line {
+        margin-bottom: 30px;
+    }
+
+    .fluid-container h1 {
+        font-family: 'Poppins', cursive;
+        font-size: 25px;
+        font-weight: 1000;
+        padding-top: 10vh;
+        text-align: center;
+        text-shadow: 2px 2px 4px black;
+        color: black;
+
+    }
+
+    .mesh-collection {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card {
+        width: 12rem !important;
+        height: auto !important;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .card img {
+        height: auto !important;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+    .mesh1-card img{
+        height: 11rem !important;
+        
+    }
+    .card-body .btn{
+        margin-left: 45px;
+        padding: 5px 10px !important;
+        font-size: 15px;
+    }
+    /* Contact Us */
+    #section3{
+        height: auto;
+    }
+    .container h2{
+        font-size: 30px;
+        text-shadow: 1px 1px 2px #000000;
+        font-weight: 700;
+        text-align: center;
+    }
+  .contact-info{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .contact .fa-2xl{
+    font-size: 30px;
+    color: #7d82a7;
+    margin-right: 30px;
+  }
+  .d-grid .btn{
+    font-size: 12px;
+    margin-left: 150%;
+  }
+  .container .ms-5{
+    margin-left: 1rem !important;
+  }
+  .socials-contact{
+    align-items: center;
+    justify-content: center;
+  }
+#inputFName{
+    margin-top: 20px;
+}
+.form{
+    margin-bottom: 30px;
+}
+.container .contact-map{
+    width: 300px !important;
+    height: auto !important;
+}
+.socials-contact .fa-brands{
+    font-size: 30px !important;
+    color: whitesmoke;
+    margin-right: 40px;
+}
+}
+
+
+@media (min-width:1200px)  {
+    .navbar-brand img {
+        height: 60px;
+        margin-left: 30px;
+    }
+
+    .btn-nav {
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 150px;
+    }
+
+    .btn-nav img {
+        width: 25px;
+        height: 25px;
+       
+    }
+
+    .btn-nav .btn {
+        width: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    /* Home Page */
+    #header {
+        height: 100vh;
+        padding-top: 350px;
+        align-items: center;
+        justify-content: center;
+        background-color: #7d82a7;
+    }
+
+    .container-header h2 {
+        margin-left: 30px;
+        font-size: 50px;
+        font-family: 'Poppins', cursive;
+        font-weight: 1000;
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: black;
+        margin-bottom: 10px;
+        margin-left: 20px !important;
+        padding-right: 30px !important;
+        text-shadow: 2px 2px 6px #000000
+    }
+
+    .container-header h1 {
+        font-size: 50px;
+        font-family: 'Poppins', cursive;
+        font-weight: 1000;
+        text-align: center;
+        color: whitesmoke;
+        margin-left: 150px;
+        text-shadow: 2px 2px 6px #000000
+    }
+
+
+    .shop-container-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .shop-btn {
+        padding: 10px 20px !important;
+        border-radius: 40px !important;
+        margin-top: 20px;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+    }
+
+    .why-container .inside-container {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        flex-direction: row !important;
+        margin-top: 20px;
+    }
+    .shipping{
+        margin-bottom: 20px !important;
+        margin: 0px 150px;
+    } 
+    /* Contact */
+    #section3{
+        height: auto;
+        padding-top: 20vh !important;
+    }
+    .container h2{
+        font-size: 50px;
+        text-shadow: 1px 1px 2px #000000;
+        font-weight: 700;
+        text-align: left;
+    }
+  .contact-info{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .contact .fa-2xl{
+    font-size: 30px;
+    color: #7d82a7;
+    margin-right: 30px;
+  }
+  .d-grid .btn{
+    font-size: 15px;
+    margin-left: 180%;
+  }
+  .container .ms-5{
+    margin-left: 7rem !important;
+  }
+  .socials-contact{
+    align-items: center;
+    justify-content: center;
+  }
+#inputFName{
+    margin-top: 50px;
+}
+.form{
+    margin-bottom: 100px !important;
+}
+.socials-contact .fa-brands{
+    font-size: 40px !important;
+    color: whitesmoke;
+    margin-right: 30px;
+}
+.iframe{
+    height: 100px !important; 
+}
+}

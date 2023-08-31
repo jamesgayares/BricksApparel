@@ -31,7 +31,12 @@
     margin-right: 30px;
 
 }
-
+#product-section{
+    height: auto;
+}
+.footer-main{
+    margin-top: 10vh;
+}
 /*------------------------ End Navbar ---------------------------*/
 
 .container-fluid .product-1{
@@ -67,4 +72,45 @@
     transition: transform .5s; 
 }.breadcrumb li{
     text-decoration: none !important;
+}
+.socials-contact .fa-brands{
+    font-size: 30px !important;
+    color: whitesmoke;
+    margin-right: 40px;
+}
+.socials-contact{
+    align-items: center;
+    justify-content: center;
+  }
+@media (min-width:320px) and (max-width:767.98px) {
+    .navbar-brand img {
+        height: 30px;
+        margin-left: 0;
+    }
+
+    .btn-nav {
+        width: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-nav img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .btn-nav .btn {
+        width: 30px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-fluid .product-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+    }
 }

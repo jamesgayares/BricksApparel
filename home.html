@@ -12,31 +12,30 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poppins:ital,wght@1,300&family=Staatliches&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ac74d10908.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!------------------------------------------------------------------- NAVBAR ------------------------------------------------------------------->
+
   <nav class="navbar navbar-expand-lg text-bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/img/logo2.png" alt="logo" width="auto" height="50">
+      <a class="navbar-brand" href="#"><img src="/img/logo2.png" alt="logo" width="auto" height="50" class="logo">
       </a>
 
       <div class="btn-nav order-lg-2" nav-btns>
         <button class="btn position-relative" type="button"><img src="img/search.png" alt="search" width="20"
             height="20">
-          <i class="fa fa-search"></i>
         </button>
 
         <button class="btn position-relative" type="button"><img src="img/heart.png" alt="search" width="20"
             height="20">
-          <i class="fa fa-heart"></i>
           <span class="position-absolute top-0 start-100 translate-middle badge bg-danger"
             style="border-radius: 100%;">2</span>
         </button>
 
         <button class="btn position-relative" type="button"><img src="img/shopping-cart (1).png" alt="search" width="20"
             height="20">
-          <i class="fa fa-shopping-cart"></i>
           <span class="position-absolute top-0 start-100 translate-middle badge bg-danger"
             style="border-radius: 100%;">5</span>
         </button>
@@ -45,7 +44,7 @@
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon" style="width: 20px;"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto text-center">
@@ -83,7 +82,7 @@
           </div>
         </div>
       </div>
-      </div>
+
     </header>
 
 
@@ -94,130 +93,62 @@
   <!------------------------------------------------------------------- COLLAGE PAGE ------------------------------------------------------------------->
 
   <section class="section2 text-bg-light" id="section2">
-    <div class="fluid-container text-bg-light">
+    <div class="fluid-container why-main text-bg-light">
       <h1 class="why-container-title">WHY SHOP WITH US</h1>
       <div class="line"></div>
-      <div class="row why-container g-4">
-        <div class="col-md-2 text-center quality  mx-4 border border-3 border-black rounded rounded-3">
-          <img src="img/quality.png" alt="quality-icon">
-          <h3>Quality</h3>
-        </div>
+      <div class="row why-container">
+        <div class="inside-container">
+          <div class="text-center shipping text-black">
+            <i class="fa-solid fa-award fa-5x"></i>
+            <h3>Quality</h3>
+          </div>
 
-        <div class="col-md-2 text-center affodable mx-4 border border-3 border-black rounded rounded-3">
-          <img src="img/price-tag.png" alt="price-icon">
-          <h3>Affordable</h3>
-        </div>
+          <div class="text-center shipping text-black">
+            <i class="fa-solid fa-money-bill-1-wave fa-5x"></i>
+            <h3>Affordable</h3>
+          </div>
 
-        <div class="col-md-2 text-center shipping mx-4 border border-3 border-black rounded rounded-3">
-          <img src="img/fast-delivery.png" alt="delivery-icon">
-          <h3>Fast-Shipping</h3>
+          <div class="text-center shipping text-black">
+            <i class="fa-solid fa-truck-fast fa-5x"></i>
+            <h3>Fast-Shipping</h3>
+          </div>
         </div>
-
       </div>
     </div>
 
     <div class="fluid-container main-collection">
       <h1>BRICKS COLLECTION</h1>
       <div class="line"></div>
-      <div class="position-relative">
-        <div class="collection col-md-8 position-absolute top-100 start-50 translate-middle">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-
-              <div class="carousel-item active">
-                <div class="row col-md-12 d-flex justify-content-center text-center">
-
-                  <div class="col-md-3 ">
-                    <div class="card mesh1-card" style="width: 18rem;">
-                      <img src="img/mesh1.1.png" class="card-img-top w-100" alt="mesh1">
-                      <div class="card-body">
-                        <h5 class="card-title">"FIRST"</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                          the
-                          card's content.</p>
-                        <a href="product-1.html" class="btn btn-dark">View</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
-                      <img src="img/mesh1.2.png" class="card-img-top" alt="mesh2">
-                      <div class="card-body">
-                        <h5 class="card-title">"LOONEY TUNES"</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                          the
-                          card's content.</p>
-                        <a href="product-2.html" class="btn btn-dark">View</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="card mesh3-card" style="width: 18rem;">
-                      <img src="img/mesh1.3.png" class="card-img-top mesh-3" alt="mesh3">
-                      <div class="card-body">
-                        <h5 class="card-title">"GOLDEN AGE"</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                          the
-                          card's content.</p>
-                        <a href="#" class="btn btn-dark mx-auto">View</a>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-                </div>
-              </div>
-
-
-              <div class="carousel-item">
-                <div class="row g-3 col-12 d-flex justify-content-center text-center">
-                  <div class="col-sm-3">
-                    <div class="card mesh1-card" style="width: 17rem;">
-                      <img src="img/Shirt1.png" class="card-img-top" alt="mesh1">
-                      <div class="card-body">
-                        <h5 class="card-title">"1% BETTER EACH DAY"(CREAM)</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                          the
-                          card's content.</p>
-                        <a href="#" class="btn btn-dark">View</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3">
-                    <div class="card mesh1-card" style="width: 17rem;">
-                      <img src="img/Shirt2.png" class="card-img-top" alt="mesh1">
-                      <div class="card-body">
-                        <h5 class="card-title">"1% BETTER EACH DAY"(GRAY)</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                          the
-                          card's content.</p>
-                        <a href="#" class="btn btn-dark">View</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon text-bg-dark" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next style" type="button" data-bs-target="#carouselExample"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon text-bg-dark" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-
+      <div class="mesh-collection d-flex align-item-center justify-content-center">
+        <div class="card mesh1-card" style="width: 18rem;">
+          <img src="img/mesh1.1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">FIRST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="product-1.html" class="btn btn-dark">View</a>
           </div>
         </div>
 
+        <div class="card" style="width: 18rem;">
+          <img src="img/mesh1.2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">TUNE SQUAD</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="product-2.html" class="btn btn-dark">View</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/mesh1.3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">WARRIORS</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">View</a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -228,85 +159,78 @@
   <!------------------------------------------------------------------- CONTACT PAGE ------------------------------------------------------------------->
 
   <section class="text-bg-light pt-2" id="section3">
-
     <div class="fluid-container">
-      <div class="container col-md-12 ">
-        <h2 class="Resell text-center">Want to be a Reseller?</h2>
-        <div class="row border border-1 border-black rounded">
-          <div class="col-md-4 rounded-start" style="background-color:#7d82a7 !important;">
-            <h2 class="contact-us g-3 pt-4 text-white col-md-12 text-center">Get in touch</h2>
-            <div class="contact mt-3">
-              <div class="col-md-12 d-flex text-center">
-                <img src="img/email (1).png" alt="Email icons">
-                <a href="#">bricksbasketball@gmail.com</a>
+      <div class="container col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="contact-us g-3 pt-4 text-black col-md-12 ms-5">Contact <span style="color:#7d82a7;">Us!</span>
+            </h2>
+            <div class="contact mt-5 ms-5">
+              <div class="col-md-12">
+                <i class="fa-solid fa-phone fa-2xl"></i>
+                <a href="#" class="contact-info">bricksbasketball@gmail.com</a>
               </div>
 
-              <div class="col-md-12 d-flex text-center">
-                <img src="img/call.png" alt="Phone icons">
-                <a href="#">(+63) 938 282 4353</a>
+              <div class="col-md-12 my-4">
+                <i class="fa-solid fa-square-phone fa-2xl"></i>
+                <a href="#" class="contact-info">(+63) 938 282 4353</a>
               </div>
 
-              <div class="col-md-12 d-flex text-center">
-                <img src="img/location (1).png" alt="location icons">
-                <a href="#">Cainta, Rizal</a>
+              <div class="col-md-12 my-4">
+                <i class="fa-solid fa-map-location-dot fa-2xl"></i>
+                <a href="#" class="contact-info">Cainta, Rizal</a>
               </div>
-              <div class="col-md-12 map pb-4">
+
+              <div class="col-md-12 my-4">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.5477740890938!2d121.11541762771112!3d14.593630998236486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b879abce4689%3A0x933363f1192674ea!2sHomestead%20Dr%2C%20Santo%20Domingo%2C%20Cainta%2C%201900%20Rizal!5e0!3m2!1sen!2sph!4v1692492459270!5m2!1sen!2sph"
-                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.095548394777!2d121.11375307667089!3d14.593630985892021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b879abce4689%3A0x933363f1192674ea!2sHomestead%20Dr%2C%20Santo%20Domingo%2C%20Cainta%2C%201900%20Rizal!5e0!3m2!1sen!2sph!4v1693470860969!5m2!1sen!2sph"
+                  width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" class="contact-map"></iframe>
+
               </div>
+
             </div>
           </div>
-          <div class="form col-md-8 text-bg-light p-4 mx-auto rounded-end">
-            <h2 class="contact-us col-md-12 text-center">Contact Us</h2>
+          <div class="form col-md-6 text-bg-dark mx-auto rounded" style="background-color: #7d82a7 !important;">
             <form class="row g-3 p-2">
 
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">First Name<span style="color: red;">*</span></label>
-                <input type="email" class="form-control border border-black" id="inputFName">
-              </div>
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Last Name<span style="color: red;">*</span></label>
-                <input type="text" class="form-control border border-black" id="inputLName">
-              </div>
-              <div class="col-6">
-                <label for="inputAddress" class="form-label">Email<span style="color: red;">*</span></label>
-                <input type="text" class="form-control border border-black" id="inputEmail">
-              </div>
-              <div class="col-6">
-                <label for="inputAddress2" class="form-label">Phone Number<span style="color: red;">*</span></label>
-                <input type="text" class="form-control border border-black" id="inputPNumber">
-              </div>
-              <div class="col-md-6">
-                <label for="inputCity" class="form-label">City<span style="color: red;">*</span></label>
-                <input type="text" class="form-control border border-black" id="inputCity">
-              </div>
-              <div class="col-md-6">
-                <label for="inputState" class="form-label">Country<span style="color: red;">*</span></label>
-                <select id="inputState" class="form-select border border-black">
-                  <option selected>...</option>
-                  <option>N/A</option>
-                  <option>Philippines</option>
-                </select>
-              </div>
               <div class="col-md-12">
-                <label for="inputZip" class="form-label">Message<span style="color: red;">*</span></label>
-                <textarea name="Message" class="form-control border border-black" id="Message-form" cols="30"
-                  rows="7"></textarea>
+                <input type="email" class="form-control border border-black" id="inputFName" placeholder="Name">
               </div>
 
-              <div class="d-grid gap-2 col-4 mx-auto">
-                <button type="submit" class="btn btn-dark form-button">Submit</button>
+              <div class="col-md-12">
+                <input type="text" class="form-control border border-black" id="inputEmail" placeholder="Email">
+              </div>
+              <div class="col-md-12">
+                <input type="text" class="form-control border border-black" id="inputPNumber"
+                  placeholder="Phone Number">
+              </div>
+
+              <div class="col-md-12">
+                <textarea name="Message" class="form-control border border-black" id="Message-form" cols="30" rows="7"
+                  placeholder="Message"></textarea>
+              </div>
+
+              <div class="d-grid gap-2 col-3 mb-5">
+                <a href=""><button type="button" class="btn btn-dark rounded rounded-5 px-3 bold me-2">
+                    Submit</button></a>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
 
+
+    <footer class="text-center p-1 bg-secondary text-white">
+      <div class="socials-contact d-flex my-4">
+        <a href=""><i class="fa-brands fa-facebook fa-2xl me-4"></i></a>
+        <a href=""><i class="fa-brands fa-facebook-messenger fa-2xl me-4"></i></a>
+        <a href=""><i class="fa-brands fa-instagram fa-2xl me-4"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok fa-2xl me-4"></i></a>
+      </div>
+      <p>Copyright © Bricks Apparel 2023</p>
+    </footer>
   </section>
 
   <!------------------------------------------------------------------- END CONTACT PAGE ------------------------------------------------------------------->
@@ -317,4 +241,5 @@
 <footer>
 
 </footer>
+
 </html>
